@@ -1,3 +1,10 @@
+/*Enunciado: Crie um endpoint /produtos:
+
+GET→ lista todos os produtos
+POST→ adicionar um produto{ "id": 1, "nome": "Teclado", "preco": 120 }
+PUT→ atualiza um produto peloid
+DELETE→ remover um produto peloid/*/
+
 const http = require('http');
 
 let produtos = [];
